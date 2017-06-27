@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/sheldonled/pen/shoeH.
+Based on a codepen by Sheldon Led http://codepen.io/sheldonled/pen/shoeH.
 
  
