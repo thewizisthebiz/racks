@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>CLE Bike Rack Tagger</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h2>Bike Rack Tagger</h2>
+<p>Tap the top button to tag a bike rack with your current GPS coordinates and if the location looks good use the button below to submit this bike rack to our inventory.</p> 
+<p>Your browser will ask if you want to share your location, but don't worry, it's just the one coordinate set, this site does not track your location.</p>
+<button id="okbutton" >Tag Your Current Location</button>
+<p id="position" style="display: none;"></p>
+  <form action="#">
+  <div>
+<!--     <label for="lat">Lat:</label>
+ -->    <input type="text" name="lat" id="lat" placeholder="Latitude" />
+  </div>
+  <div>
+<!--     <label for="long">Long:</label>
+ -->    <input type="text" name="long" id="long" placeholder="Longitude" />
+  </div>
+  <div>
+<!--     <label for="street">Street:</label>
+ -->    <input type="text" name="street" id="street" placeholder="123 Fake St." />
+  </div>
+  <div>
+<!--     <label for="neighborhood">Neighborhood:</label>
+ -->    <input type="text" name="neighborhood" id="neighborhood" placeholder="Neighborhood" />
+  </div>
+  <div>
+<!--     <label for="city">City:</label>
+ -->    <input type="text" name="city" id="city" placeholder="Cleveland" />
+  </div>
+  <div>
+<!--     <label for="state">State / Province:</label>
+ -->    <input type="text" name="state" id="state" placeholder="Ohio" />
+  </div>
+  <div>
+<!--     <label for="zip">ZIP / Postal code:</label>
+ -->    <input type="text" name="zip" id="zip" placeholder="55555" />
+  </div>
+  Select images: <input type="file" name="img" multiple>
+</form>  
+
+  <input type="submit" id="coordsubmit"></input>
+
+
+<p id="alert"></p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+<!-- mostly using http://codepen.io/sheldonled/pen/shoeH -->
+
+ 
+</html>
